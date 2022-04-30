@@ -1,5 +1,5 @@
 #login-box{
-    border: 1px solid blue;
+    border: 0px solid blue;
     width: 30%;
     text-align: center;
     margin: 0 auto;
@@ -17,6 +17,27 @@ color: white;
     font-size: 18px;
     background: #ffffff00;
     color: white;
-    padding: 5px 5px;
-
+    padding: 5px 10px;
 }
+#login-box .form .item i{
+    color: white;
+    font-size: 18px;
+}
+#login-box button{
+    border: 0;
+    width: 150px;
+    height: 40px;
+    margin-top: 18px;
+    font-size: 18px;
+    color:white;
+    border-radius: 25px;
+    background-image: linear-gradient( to right, #00dbde 0%, #fc00ff 100%);
+    }
+    body {
+        background: url("city.jpg") center;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-color: #cccccc;
+        
+    }
+
